@@ -1,0 +1,11 @@
+
+ospf:
+    rid: "5.5.5.5"
+    networks:
+      - network: "10.1.10.0"
+        wildcard: "0.0.0.255"
+        area: "0"
+
+      - network: "5.5.5.5"
+        wildcard: "0.0.0.0"
+        area: "0"

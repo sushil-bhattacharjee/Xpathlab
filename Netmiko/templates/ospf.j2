@@ -1,0 +1,6 @@
+router ospf 1
+router-id {{ ospf.rid }}
+{% for ntwk in ospf.networks %}
+network {{ ntwk.network }} {{ ntwk.wildcard }} area {{ ntwk.area }}
+{% endfor %}
+do wr
