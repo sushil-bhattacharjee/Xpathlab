@@ -1,7 +1,7 @@
 from scrapli_netconf import NetconfDriver
 
 MY_DEVICE = {
-    "host": "10.1.10.29",
+    "host": "10.1.10.77",
     "auth_username": "admin",
     "auth_password": "C1sco12345",
     "auth_strict_key": False,
